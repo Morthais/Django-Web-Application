@@ -1,7 +1,5 @@
 # Overview
 
-{Provide a description the web app that you wrote. Describe how to start a test server on your computer and what website to open up to see the first page of the app.}
-
 This is a web app called Learning Log that allows administrators to log the topics they're interested in and to make journal entries as they learn about each topic. Once logged in, an admin should be able to create new topics, add new entries, and read and edit existing entries. 
 
 I wrote this software because when you learn about a topic, keeping a journal of what you've learned can be helpful in tracking and revisiting information. A good app makes this process efficient.
@@ -12,11 +10,10 @@ I wrote this software because when you learn about a topic, keeping a journal of
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
 - base.html is a parent template from which all pages inherit common tags and attributes using the template tag mini-language included with Django
 - index.html is the home page for the web app where users will land when they visit the base url
-- topics.html shows all topics recorded in the learning log
-- topic.html shows an entry for a selected topic
+- topics.html shows all topics recorded in the learning log by the admin
+- topic.html shows all entries for a selected topic, which populates the page in reverse order from the newest entry first to the oldest entry last
 
 # Development Environment
 
@@ -33,7 +30,6 @@ I wrote this software because when you learn about a topic, keeping a journal of
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * Add styling
 * Add a login page
 * Add some user functionality
