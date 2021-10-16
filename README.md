@@ -4,9 +4,7 @@ This is a web app called Learning Log that allows administrators to log the topi
 
 I wrote this software because when you learn about a topic, keeping a journal of what you've learned can be helpful in tracking and revisiting information. A good app makes this process efficient.
 
-{Provide a link to the YouTube demonstration.  It will be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Demo Video](https://youtu.be/jXhmyM7YZjE)
 
 # Web Pages
 
