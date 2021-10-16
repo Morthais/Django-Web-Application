@@ -1,0 +1,10 @@
+<!-- This parent template file contains elements common to all pages. Every other template inherits from 'base.html' -->
+<!-- TIP: It is common for template files to have more levels of nesting, so only 2 spaces is enough for indentation. -->
+
+<p>
+  <!-- the template tag included in href is updated by Django automatically when urls.py is changed -->
+  <a href="{% url 'index' %}">Learning Log</a> -
+  <a href="{% url 'topics' %}">Topics</a>
+</p>
+
+{% block content %}{% endblock content %}
